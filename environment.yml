@@ -1,0 +1,26 @@
+name: rice_pangenome
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - minimap2=2.24
+  - syri=1.6
+  - survivor=1.0.7
+  - orthofinder=2.5.4
+  - trimmomatic=0.39
+  - bwa=0.7.17
+  - gatk4=4.2.0.0
+  - vcftools=0.1.16
+  - hisat2=2.2.1
+  - stringtie=2.1.4
+  - vg=1.40.0
+  - python=3.10
+  - scikit-learn
+  - shap
+  - pandas
+  - matplotlib
+  - seaborn
+  - r-base
+  - r-rmvp
+  - r-rideogram
